@@ -1,0 +1,319 @@
+(28/07/2024)
+
+WEB TERMINOLOGIES 
+-----------------------
+- What is Web?
+	World Wide Web (WWW): A system of interlinked documents and resources available over the Internet.
+	Web Pages: Individual documents you can view using a web browser.
+	Web Browser: Software (like Chrome, Safari, or Firefox) used to access and navigate web pages.
+	Hyperlinks: Clickable links on web pages that take you to other pages or sites.
+	Content: Includes text, images, videos, and other multimedia that you can find on the Web.
+	Access: You can use devices like computers, tablets, and smartphones to browse the Web.
+
+- What is WebSite? 
+	A website is a collection of related web pages under a single domain name, accessible via the Internet
+	- Domain Name: The address of the website on the Internet (e.g., www.example.com).
+	- Web Pages: Individual pages within a website, like a homepage, contact page, or blog posts.
+	- Content: Information on web pages, including text, images, videos, and links.
+	- Structure: Websites are often organized into sections or categories (e.g., Home, About Us, Services, Blog).
+		Example:
+		Website Name: "Flipkart Store"
+		Domain Name: www.flipkart.com
+		Web Pages:
+			Home Page: Introduction to the store and featured products.
+			Products Page: List of products available for purchase.
+			Contact Page: Form and contact information to reach the store.
+			Profile Page: Articles and updates related to the store.
+
+	- Function: Websites serve various purposes, such as providing information, offering services, or enabling online shopping.
+	
+How Website Works?
+	At a high level, a website is a collection of files that work together to provide information or functionality to users over the internet. Here’s a simplified overview of how it all works:
+
+    Domain Name:
+        Domain Name: This is the web address people type into their browser (like www.example.com). It’s essentially a human-readable name that points to a specific server on the internet.
+        
+    Website Files:
+        HTML (HyperText Markup Language): This is the core structure of the website, providing the basic layout and content. HTML files define headings, paragraphs, links, and other elements.
+        CSS (Cascading Style Sheets): These files handle the visual presentation of the website. CSS controls the colors, fonts, layout, and overall style.
+        JavaScript: This is used to add interactivity and dynamic features to the website, such as forms, animations, and other interactive elements.
+        Images and Media: These are files like photos, videos, and graphics that are displayed on the website.
+
+    Web Browser:
+        When you enter a website’s address into your browser, the browser sends a request to the website’s server.
+        The server responds by sending the requested files (HTML, CSS, JavaScript, images) back to the browser.
+        The browser then interprets these files and renders the website for you to view and interact with.
+
+    Server-Side Processing (Optional but common):
+        Some websites have server-side components where the server processes data before sending it to the browser. This is often done using languages like PHP, Python, Ruby, or Node.js.
+        For instance, when you submit a form, server-side processing might handle storing data in a database or performing calculations.
+
+    Databases (for dynamic content):
+        Many websites use databases to store and retrieve information. For example, a blog might store posts and comments in a database.
+        When a user requests a page that needs dynamic content, the server retrieves the relevant data from the database and integrates it into the web page before sending it to the browser.
+
+    Content Delivery Network (CDN) (Optional but common):
+        CDNs are used to deliver content more quickly by distributing copies of your website’s files across multiple servers around the world. This helps reduce load times and improves performance.
+
+    Security:
+        Websites often use protocols like HTTPS to secure data transmitted between the browser and the server.
+        Security measures also include protecting against unauthorized access, data breaches, and other vulnerabilities.
+		
+
+What is Http & Https ? 
+	HTTP: Think of HTTP as a way to send and receive information over the internet. However, it does this in plain text, so anyone who intercepts the data can read it easily.
+
+    HTTPS: HTTPS is like HTTP but with a security upgrade. It encrypts the information being sent, so even if someone intercepts it, they can’t read it. It’s like putting your data in a secure envelope before sending it.
+
+	Key Points:
+
+		HTTP: No encryption, less secure.
+		HTTPS: Encrypted, more secure.
+
+	Most modern websites use HTTPS to keep your data safe.
+
+What is DNS? 
+	DNS (Domain Name System)
+    What It Is: DNS is like the internet's phone book. It translates easy-to-remember domain names (like www.example.com) into numerical IP addresses that computers use to identify each other on the network.
+
+    How It Works: When you type a web address into your browser, DNS looks up the corresponding IP address so your browser can find and connect to the right website. For instance, if you enter “www.example.com,” DNS helps your browser find out that the website is actually located at a specific IP address like 192.0.2.1.
+
+    Purpose: It makes it easier for us to use the internet because remembering domain names is simpler than remembering strings of numbers
+	
+What is IpAddress?
+	What It Is: An IP address is a unique set of numbers assigned to each device on the internet or a local network. It’s like a phone number for your computer or smartphone that helps other devices find it.
+
+	Types:
+		IPv4: This is the most common format and looks like four sets of numbers separated by periods (e.g., 192.0.2.1).
+		IPv6: This is a newer format designed to provide more addresses and looks like eight groups of alphanumeric characters separated by colons (e.g., 2001:0db8:85a3:0000:0000:8a2e:0370:7334).
+
+	Purpose: It ensures that data sent over the internet reaches the correct destination by identifying the exact location of devices.\
+	
+	DNS: Translates easy-to-remember website names into numerical IP addresses.
+	IP Address: A unique number that identifies each device on the internet or a local network.
+	
+What is Client & Server?
+	Client: This is like the person asking for something. For example, when you use a web browser to look at a website, your browser is the client making the request.
+	Server: This is like the store that has the things you’re asking for. The server has the information or services, and it sends them to the client when requested.
+	
+	Example:
+    You (Client): Want to see a webpage, so you ask by typing in a web address.
+    Website’s Server: Receives your request and sends the webpage back to your browser.
+
+	In essence:
+    Client: Asks for something.
+    Server: Provides the thing requested.
+	
+What is HTML?
+	HTML is the standard markup language for creating Web pages.
+    HTML stands for Hyper Text Markup Language
+    HTML describes the structure of a Web page
+    HTML consists of a series of elements
+    HTML elements tell the browser how to display the content
+    HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link", etc.
+
+example:
+	 <!DOCTYPE html>
+	<html>
+	<head>
+		<title>Page Title</title>
+	</head>
+	<body>
+
+		<h1>My First Heading</h1>
+		<p>My first paragraph.</p>
+
+	</body>
+	</html> 
+	
+(explanation) What is HTML Page Structure?
+
+-----------------
+The <!DOCTYPE html> declaration defines that this document is an HTML5 document
+The <html> element is the root element of an HTML page
+The <head> element contains meta information about the HTML page
+The <title> element specifies a title for the HTML page (which is shown in the browser's title bar or in the page's tab)
+The <body> element defines the document's body, and is a container for all the visible contents, such as headings, paragraphs, images, hyperlinks, tables, lists, etc.
+The <h1> element defines a large heading
+The <p> element defines a paragraph
+
+What is an HTML Element?
+	An HTML element is defined by a start tag, some content, and an end tag:
+	syntax: <tagname> Content goes here... </tagname>
+
+	The HTML element is everything from the start tag to the end tag:
+	examples:
+	<h1>My First Heading</h1>
+	<p>My first paragraph.</p> 
+
+	Note: Some HTML elements have no content (like the <br> element). 
+	These elements are called empty elements. Empty elements do not have an end tag!
+        The content inside the <body> section will be displayed in a browser. The content inside the <title> element will be shown in the 
+	browser's title bar or in the page's tab.
+	
+
+some basic HTML tags that are commonly used:
+
+1. <!DOCTYPE>: Defines the document type and version of HTML being used.
+   
+2. <html>: The root element that wraps all HTML content on the page.
+   
+3. <head>: Contains meta-information about the HTML document, such as title, links to stylesheets, and scripts.
+   
+4. <title>: Sets the title of the HTML document, which appears in the browser's title bar or tab.
+   
+5. <body>: Contains the main content of the HTML document that will be displayed in the browser.
+   
+6. <h1> to <h6>: Heading tags that define headings of different levels (from most important `<h1>` to least important `<h6>`).
+   
+7. <p> Defines a paragraph of text.
+   
+8. <a>: Creates a hyperlink to another web page or a specific location within the same page.
+   
+9. <img>: Embeds an image into the HTML page.
+   
+10. <ul> Defines an unordered list, typically rendered as bullet points.
+    
+11. <ol>: Defines an ordered list, typically rendered with numbers or letters.
+    
+12. <li>: Defines a list item within `<ul>` or `<ol>`.
+
+These are fundamental tags and form the backbone of most HTML documents.
+
+You can use either .htm or .html as file extension. There is no difference; it is up to us.
+-----------------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------------
+HTML Links
+HTML links are defined with the <a> tag:
+Example
+<a href="https://www.w3schools.com">This is a link</a>
+
+The link's destination is specified in the href attribute. 
+
+Attributes are used to provide additional information about HTML elements.
+
+HTML Images
+HTML images are defined with the <img> tag.
+
+The source file (src), alternative text (alt), width, and height are provided as attributes:
+Example
+<img src="amazon.jpg" alt="amazon.com" width="104" height="142">
+
+View HTML Source Code:
+Click CTRL + U in an HTML page, or right-click on the page and select "View Page Source". This will open a new tab containing the HTML source code of the page.
+
+Never Skip the End Tag
+Some HTML elements will display correctly, even if you forget the end tag:
+Empty HTML Elements
+HTML elements with no content are called empty elements.
+
+The <br> tag defines a line break, and is an empty element without a closing tag:
+Example
+<p>This is a <br> paragraph with a line break.</p>
+HTML is Not Case Sensitive
+HTML tags are not case sensitive: <P> means the same as <p>.
+
+The HTML standard does not require lowercase tags,
+HTML Attributes
+All HTML elements can have attributes
+Attributes provide additional information about elements
+Attributes are always specified in the start tag
+Attributes usually come in name/value pairs like: name="value"
+The href Attribute
+The <a> tag defines a hyperlink. The href attribute specifies the URL of the page the link goes to:
+
+Example
+<a href="https://www.amazon.com">Visit amazon</a>
+The src Attribute
+The <img> tag is used to embed or to insert an image in an HTML page. The src attribute specifies the path to the image to be displayed:
+
+Example
+<img src="C:\Users\sreey\Downloads\TEDDY.jpg"/>
+There are two ways to specify the URL in the src attribute:
+
+1. Absolute URL - Links to an external image that is hosted on another website. Example: src="https://www.amazon.com/images/img_girl.jpg".
+
+Notes: External images might be under copyright. If you do not get permission to use it, you may be in violation of copyright laws. In addition, you cannot control external images; it can suddenly be removed or changed.
+
+2. Relative URL - Links to an image that is hosted within the website. Here, the URL does not include the domain name. If the URL begins without a slash, it will be relative to the current page. Example: src="img_girl.jpg". If the URL begins with a slash, it will be relative to the domain. Example: src="/images/img_girl.jpg".
+
+Tip: It is almost always best to use relative URLs. They will not break if you change domain.
+
+The width and height Attributes
+The <img> tag should also contain the width and height attributes, which specify the width and height of the image (in pixels):
+
+Example
+<img src="C:\Users\sreey\Downloads\TEDDY.jpg"/ width="500" height="600">
+
+The alt Attribute
+The required alt attribute for the <img> tag specifies an alternate text for an image, if the image for some reason cannot be displayed. This can be due to a slow connection, or an error in the src attribute, or if the user uses a screen reader.
+
+Example
+<img src="C:\Users\sreey\Downloads\TEDDY.jpg" alt="Girl with a jacket">
+
+Example
+See what happens if we try to display an image that does not exist:
+
+<img src="img_typo.jpg" alt="There is no image">
+
+The style Attribute
+The style attribute is used to add styles to an element, such as color, font, size, and more.
+
+Example
+<p style="color:red;">This is a red paragraph.</p>
+The lang Attribute
+You should always include the lang attribute inside the <html> tag, to declare the language of the Web page. This is meant to assist search engines and browsers.
+
+The following example specifies English as the language:
+
+<!DOCTYPE html>
+<html lang="en">
+<body>
+...
+</body>
+</html>
+Country codes can also be added to the language code in the lang attribute. So, the first two characters define the language of the HTML page, and the last two characters define the country.
+
+The following example specifies English as the language and United States as the country:
+
+<!DOCTYPE html>
+<html lang="en-US">
+<body>
+...
+</body>
+</html>
+
+The title Attribute
+The title attribute defines some extra information about an element.
+
+The value of the title attribute will be displayed as a tooltip when you mouse over the element:
+
+Example
+<p title="I'm a tooltip">This is a paragraph.</p>
+
+Always Quote Attribute Values
+The HTML standard does not require quotes around attribute values.
+Good:
+<a href="https://www.amazon.com/html/">Visit our Store</a>
+Bad:
+<a href=https://www.amazon.com/html/>Visit our store</a>
+
+Single or Double Quotes?
+Double quotes around attribute values are the most common in HTML, but single quotes can also be used.
+
+In some situations, when the attribute value itself contains double quotes, it is necessary to use single quotes:
+
+<p title='John "ShotGun" Nelson'>
+Or vice versa:
+
+<p title="John 'ShotGun' Nelson">
+
+All HTML elements can have attributes
+The href attribute of <a> specifies the URL of the page the link goes to
+The src attribute of <img> specifies the path to the image to be displayed
+The width and height attributes of <img> provide size information for images
+The alt attribute of <img> provides an alternate text for an image
+The style attribute is used to add styles to an element, such as color, font, size, and more
+The lang attribute of the <html> tag declares the language of the Web page
+The title attribute defines some extra information about an element
